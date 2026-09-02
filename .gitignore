@@ -1,8 +1,28 @@
+# Node
 node_modules
-.DS_Store
 dist
 dist-ssr
 *.local
+.vite
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/bin/
+backend/*.db
+backend/*.db-journal
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment
 .env
 .env.*
 !.env.example
+
+# OS
+.DS_Store
+Thumbs.db
